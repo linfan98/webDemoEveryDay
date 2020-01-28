@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.wrap{
+    margin: 30px auto;
+    width: 1225px;
+    height: 460px;
+    /* background-color: #f00; */
+    background-color: #f2f;
+    position: relative;
+}
+.wrap .l{
+    width: 235px;
+    height: 460px;
+    background-color: rgba(0,0,0,0.6);
+    position: relative;
+    z-index: 5;
+}
+.wrap .l h4{
+    color: #fff;
+    font-weight: normal;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.wrap .l h4>span{
+    padding-right: 20px;
+    float: right;
+    color: #dfece7;
+    font-size: 12px;
+}
+.wrap .l ul>li{
+    padding-bottom: 3px;
+    font-size: 14px;
+}
+.wrap .l ul>li>a{
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+}
+.wrap .l>h3{
+    height: 40px;
+    width: 210px;
+    border-bottom: 1px solid #717575;
+    color: #fff;
+    line-height: 40px;
+    font-weight: normal;
+    font-size: 16px;
+    padding-left: 25px;
+}
+.wrap .l .qycp{
+    height: 168px;
+    width: 210px;
+    padding-left: 25px;
+    border-bottom: 1px solid #717575;
+    cursor: pointer;
+}
+.wrap .l .grcp{
+    height: 80px;
+    width: 210px;
+    padding-left: 25px;
+    border-bottom: 1px solid #717575;
+    cursor: pointer;
+}
+.wrap .l .xinping{
+    height: 124px;
+    width: 210px;
+    padding-left: 25px;
+    border-bottom: 1px solid #717575;
+    cursor: pointer;
+}
+.wrap .l .qycp:hover,
+.wrap .l .grcp:hover,
+.wrap .l .xinping:hover{
+    background-color: #7b756b;
+}
+
+/* 鼠标悬停显示部分 */
+/* 企业产品 */
+.wrap .l .qycp .qycpNav{
+    width: 490px;
+    height: 460px;
+    border: 1px solid #efefef;
+    background-color: #fff;
+    position: absolute;
+    top: -1px;
+    left: 235px;
+    display: none;
+}
+.wrap .l .qycp:hover .qycpNav{
+    display: block;
+}
+.wrap .l .qycp .qycpNav>ul{
+    float: left;
+}
+.wrap .l .qycp .qycpNav>ul.left li,
+.wrap .l .qycp .qycpNav>ul.right li{
+    height: 89px;
+    width: 235px;
+    line-height: 92px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.wrap .l .qycp .qycpNav>ul.right li{
+    margin-left: 20px;
+}
+.wrap .l .qycp .qycpNav>ul.left li:hover,
+.wrap .l .qycp .qycpNav>ul.right li:hover
+{
+    cursor: pointer;
+    background-color: #fafafa;
+}
+.wrap .l .qycp .qycpNav>ul.left li a,
+.wrap .l .qycp .qycpNav>ul.right li a{
+    margin: 0;
+    padding: 0;
+}
+.wrap .l .qycp .qycpNav>ul.left li a img,
+.wrap .l .qycp .qycpNav>ul.right li a img{
+    display: inline-block;
+    margin: 20px;
+    vertical-align:middle;
+}
+
+/* 个人产品 */
+.wrap .l .grcp .grcpNav{
+    width: 255px;
+    height: 460px;
+    border: 1px solid #efefef;
+    background-color: #fff;
+    position: absolute;
+    top: -1px;
+    left: 235px;
+    display: none;
+}
+.wrap .l .grcp:hover .grcpNav{
+    display: block;
+}
+.wrap .l .grcp .grcpNav>ul li{
+    height: 89px;
+    width: 235px;
+    line-height: 92px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.wrap .l .grcp .grcpNav>ul li:hover{
+    cursor: pointer;
+    background-color: #fafafa;
+}
+.wrap .l .grcp .grcpNav>ul li a img{
+    display: inline-block;
+    margin: 20px;
+    vertical-align:middle;
+}
+
+/* 轮播图部分 */
+.wrap .lbt{
+    width: 1225px;
+    height: 460px;
+    background-color: #ff0;
+    position: absolute;
+    top: 0px;
+}
+.wrap .lbt img{
+    width: 1225px;
+}
